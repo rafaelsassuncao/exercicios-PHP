@@ -1,6 +1,6 @@
 <?php
 
-$peso = 80;
+$peso = 79.200;
 
 $pesoLimite = 80;
 
