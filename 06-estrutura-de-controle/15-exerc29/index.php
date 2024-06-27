@@ -2,17 +2,17 @@
 
 function calcularDesconto($valorProduto, $categoria) {
 
-    if($categoria === "eletronicos"){
+    if($categoria === "eletrônicos"){
         $desconto = 0.1;
     
-    } elseif ($categoria === "vestuario"){
+    } elseif ($categoria === "vestuário"){
         $desconto = 0.2;
 
     } elseif ($categoria === "alimentos"){
         $desconto = 0.05;
    
     } else {
-        $desconto = 0;
+        $desconto = 0.00;
     }  
 
 $valorComDesconto = $valorProduto - ($valorProduto * $desconto);
@@ -21,12 +21,12 @@ return $valorComDesconto;
 
 }
 
-$produto1 = calcularDesconto(100,"eletronicos");
-$produto2 = calcularDesconto(50,"vestuario");
-$produto3 = calcularDesconto(30,"alimentos");
-$produto4 = calcularDesconto(200,"brinquedos");
+$produto1 = calcularDesconto(100.00, "eletrônicos");
+$produto2 = calcularDesconto(50.00, "vestuário");
+$produto3 = calcularDesconto(30.00, "alimentos");
+$produto4 = calcularDesconto(2000.00, "brinquedos");
 
-echo "Produto1 custa com desconto: R$" . $produto1;
-echo "<br>Produto2 custa com desconto: R$" . $produto2;
-echo "<br>Produto3 custa com desconto: R$" . $produto3;
-echo "<br>Produto4 custa com desconto: R$" . $produto4;
+echo "eletrônicos: 10% de desconto: " . $produto1 . "<br>";
+echo "vestuário: 20% de desconto: " . $produto2 . "<br>";
+echo "alimentos: 5% de desconto: " . $produto3 . "<br>";
+echo "Outras categorias: nenhum desconto: " . $produto4 . "<br>";
