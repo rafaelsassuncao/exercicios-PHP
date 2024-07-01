@@ -9,7 +9,7 @@
   // leitura: Enquanto Y for menor que X, continue contando.
   while($y < $x){
 
-  // Fazer verificação se a array é string(exemplo) e colocar a contagem Y que é igual a 0 !!!
+  // Fazer verificação se a array é string(exemplo) e colocar o Y que aonde inicia a posição da array !!!
   if(is_string($variedades[$y])){
    
   // Imprima na tela a array com a contagem, igual colocado na condição acima !!  
@@ -17,6 +17,8 @@
   
   }
 
-  // Após fechar as chaves da condição, fazer a contagem de um em um conforme abaixo !!!
+  // Após fechar as chaves da condição, fazer a contagem de um em um conforme abaixo, esse comando $y++ vai encrementar mais 1 ao loop !!!
     $y++;
+
+
   }
