@@ -1,0 +1,20 @@
+<?php
+
+    $nome = "Rafael";
+
+    // Como é a ordem de ler o for 
+    // CONTADOR // CONDIÇÃO // INCRIMENTO OU DECREMENTO
+
+    for($i = 0; $i <= 10; $i++){
+
+        if($i == 4){
+            echo "$nome <br>";
+        }
+
+        if($i == 8){
+            break;
+        }
+
+        echo "Testando o for $i <br>";
+
+    }
