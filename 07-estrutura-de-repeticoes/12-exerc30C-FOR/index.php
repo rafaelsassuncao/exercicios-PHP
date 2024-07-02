@@ -2,16 +2,19 @@
 
 $tabelaDeNumeros = [];
 
-for($x = 10; $x < 20; $x++){
-
+for($x = 10; $x <= 20; $x++){
     array_push($tabelaDeNumeros, $x);
-    
-    $valorAtual = $tabelaDeNumeros[$x];
-
-    if($valorAtual % 2 == 0){
-
-        echo "Valor do item da array: $valorAtual . <br> ";
-    }
 
 }
 
+
+for($x = 0; $x < count($tabelaDeNumeros); $x++){
+
+    $valorTotal = $tabelaDeNumeros[$x];
+
+    if($valorTotal % 2 != 0){
+
+        echo "Este valor é impar: $valorTotal " . "<br>";
+    
+    }
+}
