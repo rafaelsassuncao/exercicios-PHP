@@ -4,6 +4,7 @@
 
   $a = 10;
 
+  // no foreach indico a array e depois os itens
   foreach($nomes as $nome){
     echo "O nome do índice atual é: $nome <br>";
 
