@@ -1,21 +1,22 @@
-* # Curso: PHP 
-* # Exercicios-PHP
-* ## Instrutor do curso: Matheus Battisti - Desenvolvedor Full Stack
+-   # Curso: PHP
+-   # Exercicios-PHP
+-   ## Instrutor do curso: Matheus Battisti - Desenvolvedor Full Stack
 
-* ## Link do curso dentro a Udemy: 
-  https://www.udemy.com/course/php-do-zero-a-maestria-com-projetos-incriveis/?couponCode=ST19MT60324
+-   ## Link do curso dentro a Udemy:
 
+    https://www.udemy.com/course/php-do-zero-a-maestria-com-projetos-incriveis/?couponCode=ST19MT60324
 
-Descrição da própria Udemy sobre este curso de PHP que comprei e estou estudando.
+-   **Descrição da própria Udemy sobre este curso de PHP que comprei e estou estudando.**
 
 ### Detalhes sobre o curso:
+
 Este é um dos maiores cursos de PHP da Udemy, que vai te levar desde o absoluto zero da linguagem até a maestria.
 
-* Mais de 30 horas de conteúdo;
+-   Mais de 30 horas de conteúdo;
 
-* Mais de 50 exercícios práticos;
+-   Mais de 50 exercícios práticos;
 
-* 4 Projetos (inicialmente);
+-   4 Projetos (inicialmente);
 
 E o curso ainda tem atualizações constantes de recursos novos, frameworks, projetos e muito mais!
 
@@ -35,43 +36,41 @@ Os projetos desse curso de PHP completo também são a oportunidade de trazermos
 
 Não vamos sair destruindo o nosso precioso teclado digitando código e mais código sem saber exatamente o porque do que estamos fazendo, vou te ensinar a pensar como um desenvolvedor:
 
-* Como arquitetar um projeto;
+-   Como arquitetar um projeto;
 
-* Boas práticas de desenvolvimento;
+-   Boas práticas de desenvolvimento;
 
-* Como definir as regras de negócio;
+-   Como definir as regras de negócio;
 
-* Organização de código;
+-   Organização de código;
 
 Enfim, você terá uma imersão como desenvolvedor web, um aprendizado realmente único que vou te proporcionar.
 
 E o PHP não trabalha sozinho, temos um grande ecossistema de outros recursos e linguagens que utilizamos para criar o projeto, e é claro: você também vai aprender estas linguagens e ferramentas aqui!
 
-
 ### Alguns dos tópicos do curso são:
 
-* Bancos de dados;
+-   Bancos de dados;
 
-* PHP e MySQL;
+-   PHP e MySQL;
 
-* HTML, CSS e Bootstrap;
+-   HTML, CSS e Bootstrap;
 
 ### Responsividade;
 
-* Orientação a objetos com PHP;
+-   Orientação a objetos com PHP;
 
-* Design Patterns;
+-   Design Patterns;
 
-* Sessions e Cookies;
+-   Sessions e Cookies;
 
-* Sistema de autenticação com PHP;
+-   Sistema de autenticação com PHP;
 
-* CRUD;
+-   CRUD;
 
-* VS Code para programação PHP;
+-   VS Code para programação PHP;
 
-* E muito, muito mais...
-
+-   E muito, muito mais...
 
 Realmente o curso tem muito conteúdo, mais de 400 aulas, se eu continuar a escrever sobre o conteúdo dele aqui, muito provavelmente vou acabar com os dedos e não vou conseguir resolver as suas dúvidas no fórum (que é uma das características que os alunos mais elogiam nos meus cursos, resposta super ágil no fórum e também a didática)
 
@@ -102,25 +101,28 @@ Esses conhecimentos permitirão que você crie aplicativos web interativos, segu
 Está pronto para criar projetos web completos com PHP e MySQL? Te espero para explorarmos totalmente a linguagem PHP nesse curso avançado!
 
 ### O que você aprenderá
-* Criar uma rede social colaborativas de filmes, parecida com o * IMDB (do absoluto zero)
-* Programar de forma avançada com a linguagem PHP
-* Tipos de dados em PHP
-* Estruturas de repetição e condição em PHP
-* Orientação a Objetos em PHP
-* PHP e MySQL (PDO, conexão, CRUD)
-* Bancos de dados com PHP
-* Páginas dinâmicas com PHP, MySQL, HTML e CSS
-* Design patterns com PHP
-* Criar projetos web avançados (boas práticas, clean code, responsividade)
+
+-   Criar uma rede social colaborativas de filmes, parecida com o \* IMDB (do absoluto zero)
+-   Programar de forma avançada com a linguagem PHP
+-   Tipos de dados em PHP
+-   Estruturas de repetição e condição em PHP
+-   Orientação a Objetos em PHP
+-   PHP e MySQL (PDO, conexão, CRUD)
+-   Bancos de dados com PHP
+-   Páginas dinâmicas com PHP, MySQL, HTML e CSS
+-   Design patterns com PHP
+-   Criar projetos web avançados (boas práticas, clean code, responsividade)
 
 E muito mais, o curso vai te preparar para ser realmente um desenvolvedor PHP!
 
 ## Há algum requisito ou pré-requisito para o curso?
+
 Seria legal conhecer HTML e CSS, mas não é necessário, vai ter aulas também sobre estes assuntos!
 
 ### Para quem é este curso:
-* Quem deseja aprender PHP de forma avançada
-Programadores iniciantes
-Desenvolvedores que desejam migrar para o PHP
-*  Deseja criar projetos web
-*  Quer criar sites dinâmicos de alta performance
+
+-   Quem deseja aprender PHP de forma avançada
+    Programadores iniciantes
+    Desenvolvedores que desejam migrar para o PHP
+-   Deseja criar projetos web
+-   Quer criar sites dinâmicos de alta performance
