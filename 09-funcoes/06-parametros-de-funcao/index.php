@@ -23,7 +23,7 @@
     velocidadeMaxima($velocidade);
 
     // Exemplo de parametro inexistente, o PHP ignora
-    velocidadeMaxima(250, "teste");
+    // velocidadeMaxima(250, "teste");
 
     velocidadeMaxima("teste");
 
