@@ -6,6 +6,7 @@
     $a = 5;
     $b = 10;
 
+    // Aqui mostra o que vai ser exibido quando eu chamar/invocar a função mais abaixo!!!
     echo $a + $b . "<br>";
 
   }
