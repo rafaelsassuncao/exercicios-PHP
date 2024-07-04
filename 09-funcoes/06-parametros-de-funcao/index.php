@@ -18,7 +18,7 @@
 
     echo "Teste continuando <br>";
 
-    $velocidade = 125;
+    $velocidade = 115;
 
     velocidadeMaxima($velocidade);
 
