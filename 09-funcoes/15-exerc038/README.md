@@ -1,11 +1,5 @@
-# Contagem de Vogais
+# Exercicio 38
 
--   Crie uma função chamada **countVowels** que recebe uma string como parâmetro.
+- Crie uma função que recebe um array de itens de supermercado;
 
--   A função deve **retornar a quantidade de vogais** presentes na string.
-
--   Utilize uma estrutura de repetição para percorrer cada caractere da string.
-
--   Utilize uma variável para armazenar o contador de vogais.
-
--   Considere que as vogais são as letras **"a", "e", "i", "o" e "u"**, em minúsculas ou maiúsculas.
+- Retorne este array em forma de string, separado em virgulas;
