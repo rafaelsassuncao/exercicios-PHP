@@ -1,4 +1,5 @@
 <?php
+
 function countVowels($str) {
     // Lista das vogais em uma única string
     $vogais = "aeiouAEIOU";
@@ -22,4 +23,7 @@ function countVowels($str) {
 // Exemplo de uso da função
 $texto = "Olá Mundo!";
 echo countVowels($texto); // Deve imprimir 4 (O, á, u, o)
+
+
+
 
