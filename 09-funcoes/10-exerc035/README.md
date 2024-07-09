@@ -1,5 +1,5 @@
 # Exercicio 35
 
-- Crie uma função que recebe um número;
+-   Crie uma função que recebe um número;
 
-- Retorne o valor deste número ao quadrado;
+-   Retorne o valor deste número ao quadrado;
