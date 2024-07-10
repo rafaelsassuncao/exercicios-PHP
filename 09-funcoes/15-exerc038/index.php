@@ -1,27 +1,23 @@
 <?php
 
-    $listaMercado = [];
-    for($x = 0; $x < strlen($list); $x++) {
-        array_push($listaMercado, $x);
-    }
-
-    function itensDeMercado($lista) {
-
-         for($z = 0; $z < count($lista); $z++) {
-
-            $itensDaLista = $lista[$z];
-
-            if($itensDaLista)
+$Supermercado = ["arroz", "feijão", "carne", "leite", "pao", "vinho"];
 
 
-         }
+function listaParaString($itensSupermercado) {
 
+    $arrViraString = "Estes são os itens no carrinho de compras:  ";
 
+    for($i = 0; $i < count($itensSupermercado); $i++) {
 
+        if($i + 1 == count($itensSupermercado)) {
+            $arrViraString .=  "$itensSupermercado[$i].";
+        } else {
+            $arrViraString .=  "$itensSupermercado[$i], ";
+        }
+ }
 
+ return $arrViraString;
 
+}
 
-
-
-
-    }
+echo listaParaString($Supermercado);
