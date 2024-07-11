@@ -9,7 +9,7 @@
     ];
 
     // Função para filtrar itens caros do array de peças
-    function itensCaros($pecasDeCarro){
+    function selecionarItens($pecasDeCarro){
         
         // Inicializa um array vazio para armazenar as peças mais caras
         $pecasMaisCaras = [];
@@ -28,7 +28,7 @@
     }
 
     // Chama a função itensCaros e armazena o resultado em um novo array
-    $novoArray = itensCaros($pecasDeCarro);
+    $novoArray = selecionarItens($pecasDeCarro);
 
     // Imprime o novo array com as peças mais caras
     print_r($novoArray);
