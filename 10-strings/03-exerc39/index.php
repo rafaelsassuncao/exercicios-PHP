@@ -33,4 +33,4 @@
     // Imprime o novo array com as peças mais caras
     print_r($novoArray);
 
-?>
+
