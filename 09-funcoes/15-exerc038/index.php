@@ -2,11 +2,11 @@
 
     $itensDeSupermercado = ["arroz", "feijão", "carne", "leite", "ovos"];
 
-       function listaParaString($lista) {
+       function listaParaString($lista){
 
         $str = "Você levou estes itens do mercado: ";
 
-         for($z = 0; $z < count($str); $z++) {
+         for($z = 0; $z < count($lista); $z++) {
 
             if($z + 1 == count($lista)) {
 
