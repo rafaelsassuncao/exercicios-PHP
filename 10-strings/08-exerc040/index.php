@@ -1,15 +1,15 @@
 <?php
 
   $frase = "O rato roeu a roupa do rei de Roma";
-
-function selecionarCaracter($umaLetra){
-
+  
   $letraSelecionada = 0;
 
-  for($i = 0; $i < strlen($umaLetra);$i++){
+  for($i = 0; $i < strlen($frase);$i++){
 
-  if($umaLetra[$i])
+    if($frase[$i] === "a"){
+      $letraSelecionada++;
+    }
+    
+  }  
 
-  }
-
-}  
+  echo "O numero de 'As' na frase é de : $letraSelecionada";
