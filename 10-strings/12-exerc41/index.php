@@ -2,6 +2,20 @@
 
  $str1 = "este item esta em";
 
- $str2 = "promoção";
+ $str2 = "promocao!";
 
-8
+$frase1 = ucfirst($str1);
+
+$frase2 = strtoupper($str2);
+
+$fraseFinal = $frase1 . " " . $frase2;
+
+echo $fraseFinal . "<br>";
+
+// Abaixo como o professor resolveu o exercicio:
+
+// $str = "este item esta em";
+// $promo = "promocao!"
+
+// echo ucfirst($str) . strtoupper($promo);
+
