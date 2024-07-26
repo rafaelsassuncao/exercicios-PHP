@@ -1,13 +1,23 @@
 <?php
 
-  $arr = [ "Maça", "Pera", "Mamão", "Batata"];
+// Define um array com alguns elementos
+$arr = ["Maça", "Pera", "Mamão", "Batata"];
 
-  $str = implode(", ", $arr);
+// Usa a função implode para juntar os elementos do array $arr em uma única string
+// Os elementos serão separados por ", "
+$str = implode(", ", $arr);
 
-  echo "$str <br>";
+// Imprime a string resultante
+echo "$str <br>";
 
-  $arr2 = ["Avião", "Tanque", "Jipe", "Metralhadora"];
+// Define outro array com alguns elementos
+$arr2 = ["Avião", "Tanque", "Jipe", "Metralhadora"];
 
-  $str = implode(" <-> ", $arr2);
+// Usa a função implode para juntar os elementos do array $arr2 em uma única string
+// Os elementos serão separados por " <-> "
+$str = implode(" <-> ", $arr2);
 
-  echo "$str <br>"; 
+// Imprime a string resultante
+echo "$str <br>";
+
+?>

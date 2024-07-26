@@ -1,15 +1,18 @@
 <?php
 
+    // Define o tipo de conteúdo da resposta como texto simples
     header("Content-type: text/plain");
 
-    // pular linha
+    // \n é o caractere de nova linha, que faz o texto ser exibido em linhas separadas
     echo "Isso aqui vai ficar na primeira linha \n E isso na segunda linha \n";
 
-    //tab
+    // \t é o caractere de tabulação, que cria um espaço horizontal
     echo "Testando o tab \t aqui \n";
 
-    //Barra Invertida 
+    // \\ é usado para exibir uma barra invertida (backslash)
     echo "Barra invertida \\ \n";
 
-     //Dólar
-     echo "Imprimindo o dólar \$ teste";
+    // \$ é usado para exibir o caractere de dólar
+    echo "Imprimindo o dólar \$ teste";
+
+?>

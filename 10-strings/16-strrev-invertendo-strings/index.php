@@ -1,8 +1,12 @@
 <?php
 
-  $palavra = "Testando";
+// Define uma string para ser usada no teste
+$palavra = "Testando";
 
-  $palavraInvertida = strrev($palavra);
+// Usa a função strrev para inverter a string $palavra
+$palavraInvertida = strrev($palavra);
 
-  echo "$palavra . <br>";
-  echo "$palavraInvertida . <br>";
+// Imprime a string original
+echo "$palavra . <br>";
+// Imprime a string invertida
+echo "$palavraInvertida . <br>";

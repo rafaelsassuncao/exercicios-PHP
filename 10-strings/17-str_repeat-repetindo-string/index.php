@@ -12,8 +12,9 @@ echo $strRepetida . "<br>";
 
 // 2º Modo
 // Definindo a frase que será repetida
-$frase = "Testanto repetição por frase";
+$frase = "Testando repetição por frase";
 
 // Utilizando a função str_repeat para repetir a string $frase 5 vezes
 echo str_repeat($frase, 5);
+
 ?>

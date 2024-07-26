@@ -1,19 +1,30 @@
 <?php
 
-  $str = "Esta é a minha string";
+// Define uma string para ser usada nos testes
+$str = "Esta é a minha string";
 
-  $minha = substr($str, 10, 5);
-  //(string pai, indice inicial, comprimento da palavra)
+// Usa a função substr para extrair uma substring da string $str
+// Inicia na posição 10 e extrai 5 caracteres
+$minha = substr($str, 10, 5);
 
-  echo $str . "<br>";
-  echo $minha . "<br>";
+// Imprime a string original
+echo $str . "<br>";
+// Imprime a substring extraída ("minha")
+echo $minha . "<br>";
 
-  $str2 = "Testando está string abc";
+// Define outra string para ser usada nos testes
+$str2 = "Testando está string abc";
 
-  $novaString = substr($str2, 8); //Omitir comprimento = pegar ate o fim
+// Usa a função substr para extrair uma substring da string $str2
+// Inicia na posição 8 e extrai até o final da string
+$novaString = substr($str2, 8); 
 
-  echo $novaString . "<br>";
+// Imprime a nova substring extraída ("está string abc")
+echo $novaString . "<br>";
 
-  $novaString2 = substr($str2, 8, -3); //comprimento negativo = remover do ultimo indice
+// Usa a função substr para extrair uma substring da string $str2
+// Inicia na posição 8 e extrai até 3 caracteres antes do final da string
+$novaString2 = substr($str2, 8, -3); 
 
-  echo $novaString2 . "<br>";
+// Imprime a nova substring extraída ("está string")
+echo $novaString2 . "<br>";
