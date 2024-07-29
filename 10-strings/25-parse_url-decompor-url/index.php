@@ -28,7 +28,7 @@
 
   // 3º exemplo
   // Define uma URL com o protocolo HTTP e um caminho adicional
-  $url3 = "http://www.horadecodar.com.br/usuarios/rafaelsantos=php";
+  $url3 = "http://www.horadecodar.com.br/usuarios/rafaelsantos?id=12&nome=Rafael";
 
   // A função parse_url analisa a URL e retorna um array associativo com partes da URL
   $arrayUrl3 = parse_url($url3);
