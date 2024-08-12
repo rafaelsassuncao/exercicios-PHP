@@ -1,15 +1,18 @@
 <?php
 
+  // Criando um array bidimensional
   $arr = [
-
-    [1, 2, 3],
-    [2, 4, 6],
-
+    [1, 2, 3], // Primeiro array dentro do array principal
+    [2, 4, 6], // Segundo array dentro do array principal
   ];
 
+  // Imprime o array completo de forma legível
   print_r($arr);
-  echo "<br";
+  echo "<br>"; // Quebra de linha
 
-  echo $arr = [0][1] . "<br>"; //acessando primeiro array, e segundo elemento
+  // Acessa e imprime o segundo elemento do primeiro array (valor: 2)
+  echo $arr[0][1] . "<br>";
 
-  echo $arr = [1][2] . "<br>"; //acessando segundo array, e ultimo elemento
+  // Acessa e imprime o terceiro elemento do segundo array (valor: 6)
+  echo $arr[1][2] . "<br>";
+?>
