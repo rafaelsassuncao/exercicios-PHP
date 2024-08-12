@@ -1,6 +1,6 @@
 <?php
 
-  // Criando um array bidimensional
+  // Criando um array multidimensionais
   $arr = [
     [1, 2, 3], // Primeiro array dentro do array principal
     [2, 4, 6], // Segundo array dentro do array principal
