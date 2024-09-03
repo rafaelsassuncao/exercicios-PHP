@@ -1,7 +1,7 @@
 <?php
 
   // Criação de um array associativo onde os nomes são as chaves e as idades são os valores
-  $pessoa = [
+  $pessoas = [
     'Rafael' => 33, 
     'Thais'=> 31,
     'Gabriel'=> 26,
@@ -17,7 +17,7 @@
   </tr>
   
   <!-- Loop que percorre o array $pessoa para preencher as linhas da tabela -->
-  <?php foreach($pessoa as $nomes => $idade): ?>
+  <?php foreach($pessoas as $nomes => $idade): ?>
     <tr>
       
       <td><?= $nomes; ?></td> <!-- Exibe o nome na primeira coluna -->
