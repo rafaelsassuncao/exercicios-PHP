@@ -8,7 +8,7 @@
 
   // Exibe o array ordenado em ordem crescente
   print_r($arr);
-  echo "<br><br>"; // Adiciona duas quebras de linha no HTML para separação visual
+  echo "<br><br>";
 
   // Cria um segundo array de números inteiros com os mesmos valores
   $arr2 = [2, 1, 344, 32, 123, 65, 38, 999, 12, 4];
@@ -18,7 +18,7 @@
 
   // Exibe o segundo array ordenado em ordem decrescente
   print_r($arr2);
-  echo "<br><br>"; // Adiciona duas quebras de linha no HTML para separação visual
+  echo "<br><br>";
 
   // Cria um array de strings com nomes
   $arr3 = ['Thais', 'Rafael', 'Amora', 'Pipoca'];
@@ -28,7 +28,7 @@
 
   // Exibe o array de strings ordenado em ordem alfabética crescente
   print_r($arr3);
-  echo "<br><br>"; // Adiciona duas quebras de linha no HTML para separação visual
+  echo "<br><br>";
 
   // Recria o array de strings com os mesmos nomes
   $arr3 = ['Thais', 'Rafael', 'Amora', 'Pipoca'];
@@ -38,5 +38,5 @@
 
   // Exibe o array de strings ordenado em ordem alfabética decrescente
   print_r($arr3);
-  echo "<br><br>"; // Adiciona duas quebras de linha no HTML para separação visual
+  echo "<br><br>";
 ?>
