@@ -15,4 +15,3 @@ shuffle($arr);
 // Imprime o array embaralhado novamente
 print_r($arr);
 
-?>
