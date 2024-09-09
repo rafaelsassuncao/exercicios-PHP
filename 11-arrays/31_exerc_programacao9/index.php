@@ -1,16 +1,13 @@
 <?php
 
-  $arr1 = range(1, 20);
+$array = [1, 2, 3];
 
-  function somaElementos($arr1){
+function somaElementos($array) {
+    if (count($array) == 0) {
+        return "Erro. O array deverá conter um elemento, no mínimo.";
+    } else {
+        return array_sum($array);
+    }
+}
 
-    for($i = 0, $i < count($arr1), $i++){
-      $soma = array_sum($arr1);
-    };
-    return $soma;
-  };
-
-  $resultado = $soma;
-
-  echo $resultado;
-  echo "<br>";
+echo somaElementos($array);
