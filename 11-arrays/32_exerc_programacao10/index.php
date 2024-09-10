@@ -1,13 +1,17 @@
 <?php
 
-  $arrai = [1, 2, 3, 10, 4, 6];
+  function maiorElemento($arr){
+    $maior = $arr[0]; // Inicializa o maior elemento com o primeiro elemento do array
 
-  function maiorElemento($arrai){
-
-    for($i = 0; $i < count($arrai); $i++){
-
-      
-
+// Percorre o array para encontrar o maior elemento
+    foreach ($arr as $elemento) {
+      if ($elemento > $maior) {
+          $maior = $elemento;
+      }
     }
+    return $maior; // Retorna o maior elemento encontrado
 
-  };
+    };
+
+    $novoArray = [1, 75, 35, 125, 758, 987, 456];
+    echo maiorElemento($novoArray) . "<br><br>";
