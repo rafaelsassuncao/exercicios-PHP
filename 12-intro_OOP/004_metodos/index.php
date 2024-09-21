@@ -18,7 +18,7 @@
 
   $thais = new Pessoa;
 
-  $thais->falar();
+  $thais->falar()  
 
   $rafael->somar(10, 10);
   $thais->somar(2, 3);
