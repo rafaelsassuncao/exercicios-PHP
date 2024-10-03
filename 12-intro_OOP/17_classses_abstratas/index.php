@@ -6,13 +6,3 @@
   }
     abstract public function testeAbs();
   }
-
-  // $t = new Teste;
-
-Teste::testantoClasse();
-
-class Nova extends Teste {
-  public function testeAbs() {
-    echo "Teste método abstrato <br>";
-  }
-}
