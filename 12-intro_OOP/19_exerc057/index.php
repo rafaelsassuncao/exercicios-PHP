@@ -16,7 +16,8 @@
   }
 
   $fila = new Cachorro("tigrado", "Fila Brasileiro", "grande");
-  
-
+  $fila->exibirAnimal();
   $viraLata = new Cachorro("caramelo", "vira lata", "médio");
+  $viraLata->exibirAnimal();
+  
   
