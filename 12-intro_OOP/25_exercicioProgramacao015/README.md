@@ -1,8 +1,8 @@
 # Gerenciador de Contatos
 
-1. Crie uma classe chamada Contact que represente um contato.
+1. Crie uma classe chamada **Contact** que represente um contato.
 
-2. A classe Contact deve ter os seguintes atributos:
+2. A classe **Contact** deve ter os seguintes atributos:
 
 -   name: nome do contato.
 
@@ -10,7 +10,7 @@
 
 -   phone: número de telefone do contato.
 
-3. A classe Contact deve ter os seguintes métodos:
+3. A classe **Contact** deve ter os seguintes métodos:
 
 -   getName(): retorna o nome do contato.
 
