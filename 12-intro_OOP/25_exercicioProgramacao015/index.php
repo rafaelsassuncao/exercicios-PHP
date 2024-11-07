@@ -7,31 +7,31 @@ class Contact {
     private $phone;
 
     // Construtor para inicializar os atributos
-    public function __construct($name, $email, $phone) {
+    public function __construct($name, $email, $phone){
         $this->name = $name;
         $this->email = $email;
         $this->phone = $phone;
     }
 
     // Métodos getter para acessar os atributos
-    public function getName() {
+    public function getName(){
         return $this->name;
     }
 
-    public function getEmail() {
+    public function getEmail(){
         return $this->email;
     }
 
-    public function getPhone() {
+    public function getPhone(){
         return $this->phone;
     }
 
     // Métodos setter para atualizar os atributos
-    public function setEmail($email) {
+    public function setEmail($email){
         $this->email = $email;
     }
 
-    public function setPhone($phone) {
+    public function setPhone($phone){
         $this->phone = $phone;
     }
 }
