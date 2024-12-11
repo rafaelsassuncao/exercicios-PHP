@@ -5,8 +5,8 @@
   
   $dataC = new DateTime();
 
-  $dataB->setDate(2022,12,10);
-  $dataC->setDate(2022,12,10);
+  $dataB->setDate(2025,12,10);
+  $dataC->setDate(2025,12,10);
 
   $dataB->setTime(01, 10, 10);
   $dataC->setTime(01, 10, 10);
@@ -21,5 +21,5 @@ if($dataA < $dataB){
 }
 
 if($dataB == $dataC){
-  echo "A data B é igual a data C <br>";
+  echo "As datas B é igual a data C <br>";
 }
