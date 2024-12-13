@@ -8,10 +8,10 @@
 <body>
   <form action="processamento.php" method="GET">
     <div>
-    <input type="text" name="nome" placeholder="Digite o seu nome aqui">
+      <input type="text" name="nome" placeholder="Digite o seu nome aqui">
     </div>
     <div>
-    <input type="text" name="idade" placeholder="Digite sua idade">
+      <input type="text" name="idade" placeholder="Digite sua idade">
     </div>
     <div>
       <input type="submit" value="ENVIAR">
