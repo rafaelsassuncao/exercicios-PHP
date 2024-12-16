@@ -4,4 +4,4 @@
 
 -   No lado do servidor vamos acessar a variável $\_POST que contém os parâmetros enviados para o servidor;
 
--   Faremos o processamento e retornamos algo para o usuário;
+-   Faremos o processamento e retornamos algo para o usuário; dfhhhh
