@@ -68,6 +68,32 @@ main {
   color: #999;
 }
 
+#posts-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#posts-box:first-child {
+  min-width: 100%;
+}
+
+#posts-box {
+  flex: 1 1 0;
+  margin: 0 1%;
+  margin-bottom: 20px;
+}
+
+#posts-box img {
+  width: 100%;
+}
+
+
+
+
+
 /* FOOTER */
 footer {
   width: 100%;
