@@ -15,7 +15,6 @@ main {
 }
 
 /* NAVBAR */
-
 #logo {
   position: absolute;
   top: 10px;
@@ -52,8 +51,24 @@ main {
   color:#999;
 }
 
-/* FOOTER */
+/* HOME */
+#title-container {
+  min-width: 500px;
+  text-align: center;
+  margin-top: 30px;
+}
 
+#title-container h1 {
+  font-size: 50px;
+}
+
+#title-container p {
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+/* FOOTER */
 footer {
   width: 100%;
   position: absolute;
