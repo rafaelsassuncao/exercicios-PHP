@@ -124,12 +124,15 @@ main {
 
 
 /* POST */
-
 #post-container {
   display: grid;
   grid-template-columns: 75% 25%;
   grid-template-rows: auto;
   grid-template-areas: "main sidebar";
+  grid-gap: 10px;
+  padding-top: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 
