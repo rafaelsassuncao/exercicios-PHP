@@ -15,7 +15,7 @@
   $nome = "Xicara";
   $descricao = "É uma xícara usada de cor rosa";
 
-  $q = "INSERT INTO $table (nome, descricao) VARCHAR($nome, $descricao)";
+  $q = "INSERT INTO $table (nome, descricao) VALUES ('$nome', '$descricao')";
 
   $conn->query($q);
 
