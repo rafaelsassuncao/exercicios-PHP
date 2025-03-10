@@ -1,7 +1,5 @@
 <?php
-
-  include_once("config/url.php")
-
+  include_once("config/url.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -14,16 +12,21 @@
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- CSS -->
-   <link rel="stylesheet" href="<?=$BASE_URL?>css/style.css">
+  <link rel="stylesheet" href="<?=$BASE_URL?>css/style.css">
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary"></nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="<?=$BASE_URL?>index.php">
         <img src="<?=$BASE_URL?>img/logo.svg" alt="Agenda">
       </a>
-      <div>
-        <div class="navbar-nav"></div>
-        <a href="navbar"></a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav"> 
+            <a class="nav-link active text-white" id="home-link" href="<?=$BASE_URL?>index.php">Agenda</a>
+            <a class="nav-link active text-white" id="add-contact-link" href="<?=$BASE_URL?>create.php">Adicionar Contato</a>
+          </div>
       </div>
-  </header> 
+    </nav> 
+  </header>
+</body>
+</html>
