@@ -18,5 +18,12 @@
 </head>
 <body>
   <header>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary"></nav>
+      <a class="navbar-brand" href="<?=$BASE_URL?>index.php">
+        <img src="<?=$BASE_URL?>img/logo.svg" alt="Agenda">
+      </a>
+      <div>
+        <div class="navbar-nav"></div>
+        <a href="navbar"></a>
+      </div>
   </header> 
