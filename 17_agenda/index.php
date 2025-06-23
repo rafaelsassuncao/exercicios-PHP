@@ -15,13 +15,13 @@
             <th scope="col"></th>
           </thead>
           <tbody>
-            <?php foreach($contacts as $contacts): ?>
+            <?php foreach($contacts as $contact): ?>
               <tr>
-                <td scope="row"><?= $contacts["id"] ?></td>
-                <td scope="row"><?= $contacts["name"] ?></td>
-                <td scope="row"><?= $contacts["phone"] ?></td>
+                <td scope="row"><?= $contact["id"] ?></td>
+                <td scope="row"><?= $contact["name"] ?></td>
+                <td scope="row"><?= $contact["phone"] ?></td>
                 <td class="action">
-                  <a href="#"><i class="fas fa-eyes check-icon"></i></a>
+                  <a href="#"><i class="fas fa-eye check-icon"></i></a>
                   <a href="#"><i class="far fa-edit edit-icon"></i></a>
                   <button type="summit"><i class="fas fa-times delete-icon"></i></button>
                 </td>
