@@ -76,6 +76,3 @@ if(!empty($data)){
 // FECHAR CONEXÃO
 $conn = null;
 
-
-
-
