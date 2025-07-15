@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
           <div class="navbar-nav">
             <a class="nav-link active text-white" id="home-link" href="<?=$BASE_URL?>index.php">Agenda</a>
-            <a class="nav-link active text-white" id="add-contact-link" href="<?=$BASE_URL?>create.php">Adicionar Contato</a>
+            <a class="nav-link active text-white" href="<?=$BASE_URL?>create.php">Adicionar Contato</a>
           </div>
       </div>
     </nav>
